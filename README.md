@@ -25,7 +25,7 @@ labelme --autosave --nodata
 ## Modification Notes
 
 2023/6/26: Change default type to "fish" (so do not need to enter label name when creating new point/bbox)
-
+2023/8/1: Change configuration 
 ---
 ---
 
