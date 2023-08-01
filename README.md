@@ -2,6 +2,33 @@
   <img src="labelme/icons/icon.png"><br/>labelme
 </h1>
 
+---
+---
+
+## Installation (Custom Build)
+
+### Anaconda
+
+You need install [Anaconda](https://www.continuum.io/downloads), then run below:
+
+```bash
+# python3
+conda create --name=labelme python=3
+conda activate labelme
+# install using source
+cd labelme
+python setup.py develop
+# check if it works
+labelme --autosave --nodata
+```
+
+## Modification Notes
+
+2023/6/26: Change default type to "fish" (so do not need to enter label name when creating new point/bbox)
+
+---
+---
+
 <h4 align="center">
   Image Polygonal Annotation with Python
 </h4>
