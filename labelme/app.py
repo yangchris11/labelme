@@ -1413,7 +1413,10 @@ class MainWindow(QtWidgets.QMainWindow):
         position MUST be in global coordinates.
         """
         items = self.uniqLabelList.selectedItems()
-        text = None
+        # modification for NIWA labeling
+        text = "Fish"
+        self._config["display_label_popup"] = False
+        # modification for NIWA labeling
         if items:
             text = items[0].data(Qt.UserRole)
         flags = {}
